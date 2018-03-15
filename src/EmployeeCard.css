@@ -1,0 +1,71 @@
+.contact-card {
+  width: 28%;
+  padding: 1%;
+  margin: 16px 1.66666667%;
+  border-radius: 2px;
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.6);
+  text-align: left;
+  float: left;
+  background-color: #fff;
+}
+.avatar-container {
+  width: 60px;
+  height: 60px;
+  border-radius: 32px;
+  padding: 2px;
+  border: 1px solid #9EA3B0;
+  float: left;
+  margin-right: 16px;
+  overflow: hidden;
+}
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.avatar img {
+  max-width: 100%;
+  text-align: center;
+}
+.employee-name {
+  font-size: 22px;
+  float: left;
+  line-height: 64px;
+}
+.employee-profile {
+  overflow: auto;
+  padding: 8px 0;
+}
+.employee-contact-info {
+  border-top: 1px solid #ccc;
+  padding: 12px 0;
+}
+.employee-contact-info h2 {
+  font-size: 14px;
+  /* font-family: 'Helvetica Neue'; */
+  font-weight: normal;
+  margin: 0 0 12px;
+  color: #666;
+}
+.contact-info-datum {
+  overflow: auto;
+  line-height: 30px;
+  font-size: 14px;
+  border-bottom: 1px solid #f3f5f7;
+}
+.contact-info-datum > div {
+  margin: 0;
+}
+.contact-info-datum > .label {
+  float: left;
+  /* width: 20%; */
+  padding-right: 5%;
+  color: #999;
+  min-width: 50px;
+}
+.contact-info-datum > .datum {
+  float: left;
+  width: 69%;
+  padding-right: 5%;
+}
